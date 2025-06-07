@@ -1,6 +1,6 @@
 package academy.devdojo.maratona.java.introducao;
 
-public class Aula06EstruturasDeRepeticao04 {
+public class Aula06EstruturasDeRepeticao04Break {
     //Dado o valor de um carro, descubra em quantas vezes ele pode ser parcelado
     //Condição valorParcela >= 1000
     public static void main(String[] args) {
