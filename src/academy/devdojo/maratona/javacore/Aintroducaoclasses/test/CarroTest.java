@@ -18,5 +18,9 @@ public class CarroTest {
         System.out.println(carro1.nome + " " + carro1.ano + " " + carro1.modelo);
         System.out.println(carro2.nome + " " + carro2.ano + " " + carro2.modelo);
 
+        //Referência de objetos - Apontar carro3 para o mesmo endereço de memória que o carro1
+        Carro carro3 = new Carro();
+        carro3 = carro1;
+        System.out.println(carro3.nome + " " + carro3.ano + " " + carro3.modelo);
     }
 }
