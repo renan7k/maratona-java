@@ -52,4 +52,24 @@ public class Calculadora {
         }
         System.out.println(soma);
     }
+    /// DESAFIO: Criar uma calculadora que valida se o número é primo ou não.| Retornar true se for, false se não
+    public boolean numeroPrimo( int numero){
+        if(numero <= 1){
+            return false;
+        }
+        for (int i = 2; i <= Math.sqrt(numero) ; i++) {
+            if (numero % i == 0){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    //DESAFIO2: Criar uma calculadora que receba uma lista/array, e retorne toda essa lista * 2
+    public void arrayX2 (int[] numeros ){
+        for (int i = 0; i < numeros.length ; i++) {
+            numeros[i] *= 2;
+            System.out.println(numeros[i]);
+        }
+    }
 }
